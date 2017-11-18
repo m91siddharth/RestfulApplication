@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hello.HelloControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.654 sec <<< FAILURE! - in hello.HelloControllerTest
-getHello(hello.HelloControllerTest)  Time elapsed: 0.01 sec  <<< FAILURE!
-java.lang.AssertionError: Response content
-Expected: "Greetings from Spring Boot!"
-     but: was "{\r\n  \"dataStreamName\": \"MyDataSource\",\r\n  \"type\": \"derived\",\r\n  \"application\": {\r\n    \"detailsUrl\": \"http://example.com\",\r\n    \"name\": \"Foo Example App\",\r\n    \"version\": \"1\"\r\n  },\r\n  \"dataType\": {\r\n    \"field\": [\r\n      {\r\n        \"name\": \"steps\",\r\n        \"format\": \"integer\"\r\n      }\r\n    ],\r\n    \"name\": \"com.google.step_count.delta\"\r\n  },\r\n  \"device\": {\r\n    \"manufacturer\": \"Example Manufacturer\",\r\n    \"model\": \"ExampleTablet\",\r\n    \"type\": \"tablet\",\r\n    \"uid\": \"1000001\",\r\n    \"version\": \"1\"\r\n  }\r\n}\r\n"
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
-	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
-	at hello.HelloControllerTest.getHello(HelloControllerTest.java:29)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.618 sec - in hello.HelloControllerTest
